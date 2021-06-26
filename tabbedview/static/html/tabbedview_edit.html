@@ -1,0 +1,51 @@
+<div class="editor-with-buttons">
+    <div class="wrapper-comp-settings is-active editor-with-buttons" id="settings-tab">
+        <div id="tabbedview_edit_wrapper" class="bootstrap-wrapper">
+            <div id="tabbedview_toolbar" class="row">
+                <div id="message">
+                    <div style="color:red">*</div>
+                    <div style="color:black">&nbsp;&nbsp;To see preview of your content, enable the live preview option from <b>"Settings"</b></div>
+                </div>
+            </div>
+            <div id="tabbedview_workarea" class="row">
+                <div class="col-6 knockout-top-to-bottom" id="tabbedview_editor">
+                    <!--p class="heading">Editor :</p-->
+                    <textarea id="TabViewEditor"></textarea>
+                </div>
+                <div class="col-6 knockout-top-to-bottom" id="tabbedview_preview">
+                    <!--p class="heading">Live Preview :</p-->
+                    <iframe sandbox="allow-scripts allow-same-origin allow-popups" id="TabPreview" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="tabbedview_settings_wrapper" class="is-hidden">
+            <ul class="list-input settings-list" id="adv-line-items">
+                <li class="field comp-setting-entry is-set">
+                    <div class="wrapper-comp-setting">
+                        <label class="label setting-label">Display Name</label>
+                        <input class="input setting-input" name="display_name" value="{self.display_name}" id="display_name_option">
+                    </div>
+                </li>
+                <li class="field comp-setting-entry is-set">
+                    <div class="wrapper-comp-setting">
+                        <label class="label setting-label">Live Preview</label>
+                        <select class="select setting-select" name="live_preview" id="live_preview_option">
+                            <option value="enable">Enabled</option>
+                            <option value="disable">Disabled</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="xblock-actions">
+        <ul>
+            <li class="action-item">
+                <a href="#" class="button action-primary save-button">Save</a>
+            </li>
+            <li class="action-item">
+                <a href="#" class="button cancel-button">Cancel</a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+from .tabbedview import TabbedViewHTMLXBlock

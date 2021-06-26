@@ -1,0 +1,134 @@
+
+.bootstrap-wrapper .tabbedview_block .count {
+    font-weight: bold;
+}
+
+.bootstrap-wrapper .tabbedview_block p {
+    cursor: pointer;
+}
+
+.bootstrap-wrapper .CodeMirror {
+    height: 100% !important;
+    width: 100% !important;
+}
+#settings-tab {
+    height: 370px;
+}
+#editor-tab {
+    height: 370px;
+}
+#tabbedview_edit_wrapper {
+    height: 380px;
+    margin: 5px;
+    padding: 5px;
+    /* top: 20%; Needed for workbench only */
+}
+.bootstrap-wrapper #tabbedview_liveoption_wrapper {
+    height: 100%;
+}
+.bootstrap-wrapper #tabbedview_toolbar {
+    margin: 0px;
+    padding: 0px;
+    height: 7%;
+}
+.bootstrap-wrapper #tabbedview_workarea {
+    height: 93%;
+    padding: 0px;
+    margin: 0px;
+}
+.bootstrap-wrapper #tabbedview_editor {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    right: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.bootstrap-wrapper #tabbedview_preview {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    left: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.bootstrap-wrapper #TabViewEditor {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    resize: both;
+}
+.bootstrap-wrapper #TabPreview {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.bootstrap-wrapper .heading {
+    font-size: 20px;
+}
+.bootstrap-wrapper .live_preview_toggle_wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.bootstrap-wrapper li {
+    float: left;
+}
+.bootstrap-wrapper .live_pre_title {
+    height: 20px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 7px;
+}
+.edit-menu-tab {
+    float:right;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 2%;
+    font-weight: 600;
+    font-size: 0.9em;
+    background-color: transparent;
+    color: #999;
+}
+.edit-menu-tab:hover {
+    background-color: #1f618d;
+    color: #fff;
+}
+.edit-menu-tab.current {
+    background-color: #4c4c4c;
+    color: #fff;
+}
+
+.knockout-top-to-bottom {
+    position: relative; 
+  }
+  .knockout-top-to-bottom:before, .knockout-top-to-bottom:after {
+    content: "";
+    position: absolute;
+  }
+  .knockout-top-to-bottom:before {
+    top: -3px;
+    left: -3px;
+    bottom: 0;
+    right: -3px;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image: -moz-linear-gradient(#000, transparent);
+    background-image: -o-linear-gradient(#000, transparent);
+    z-index: -2;
+  }
+  .knockout-top-to-bottom:after {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #a4b9ff;
+  }
